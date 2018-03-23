@@ -1,0 +1,10 @@
+(start-repl)
+(js/alert "hola")
+(js/alert "pepe")
+(js/alert "xcsde")
+(println 34)
+(println "que pasa")
+(js/alert "Que ahces")
+(num)
+num
+modern-cljs.core/num
