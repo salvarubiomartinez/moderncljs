@@ -10,3 +10,8 @@
 (println num)
 (println num)
 (println "ppp")
+(defn fib [x]
+  (if (= x 1)
+  1
+  (* x (fib (- x 1)))))
+(println (fib 100))

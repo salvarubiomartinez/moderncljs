@@ -8,3 +8,26 @@
 (num)
 num
 modern-cljs.core/num
+(start-repl)
+(println "pepe")
+(println "pepeee")
+(start-repl)
+(exit)
+(start-repl)
+(exit)
+(start-repl)
+(println "hola")
+js/window
+js/document
+js/console
+(js/console.log "dddddddddddddd")
+(js/console.warn "eeee")
+(.getElementById js/document "loginForm")
+(.-value (.getElementById js/document "email"))
+(count (.-value (.getElementById js/document "email")))
+(doc if)
+(doc let)
+(require '[modern-cljs.login :as l] :reload)
+(l/validate-form)
+l/validate-form
+(exit)
